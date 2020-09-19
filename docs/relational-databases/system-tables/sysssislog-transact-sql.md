@@ -37,7 +37,7 @@ ms.author: lle
 |source|**nvarchar**|The name of the executable, in the package, that generated the logging entry.|  
 |sourceid|**uniqueidentifier**|The GUID of the executable in the package that generated the logging entry.|  
 |executionid|**uniqueidentifier**|The GUID of the execution instance of the executable that generated the logging entry.|  
-|starttime|**datetime**|The time the package began to run.|  
+|starttime|**datetime**|The time of the event that generated the logging entry.|  
 |endtime|**datetime**|The time the package completed.<br /><br /> This feature is not implemented. The value in the endtime column is always the same as the value in the starttime column.|  
 |datacode|**int**|An optional integer value that typically indicates the result of running the container or task.|  
 |databytes|**image**|An optional byte array that contains additional information.|  
